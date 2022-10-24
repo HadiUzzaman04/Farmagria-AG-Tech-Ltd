@@ -1,80 +1,78 @@
 @extends('layouts.master')
 @section('content')
 
+<section style="background-image: url({{url('website/images/bannar.jpg')}}); background-repeat: no-repeat; 
+background-size:cover; background-position:center;">
+     <div class="container">
+          <div class="text-center">
+               <h1>ERP Development</h1>
+               <br>
+          </div>
+     </div>
+</section>
+
+<section class="section-background">
+     <div class="container">
+          <div class="row">
+               <div class="col-md-offset-1 col-md-4 col-xs-12 pull-right">
+                    <img src="images/erp.png" class="img-responsive img-circle" alt="">
+               </div>
+
+               <div class="col-md-7 col-xs-12">
+                    <div class="about-info">
+                         <h2>ERP Implementation Services for Development Company</h2>
+
+                         <figure>
+                              <figcaption>
+                                   <p>ERP stands for endeavor asset arranging. It's program that oversees a company's financials, supply chain, operations, commerce, detailing, fabricating, and human asset activities. Most companies have a back and operational framework in put, but most other program out there can't go past ordinary commerce forms or offer assistance with future commerce growth. As companies grow and their needs alter, their frameworks ought to keep up with them. We'll characterize what ERP is and why it's keen to have program in put that keeps up along with your commerce needs.</p>
+
+                                   <p>Now, you can easily manage your business, With Our trusted ERP developers. That brings all your business activities into a single, simple, custom ERP solution company. Whether you're a developing business or an established business. you're probably looking for a convenient enterprise resource planning (ERP) system. Our ERP software companies have experienced team members. They implement ERP Implementation Services for Development companies. Also, our ERP implementation consultants create fully integrated modules. We provide high-end solutions.</p>
+                              </figcaption>
+                         </figure>
+                    </div>
+               </div>
+          </div>
+     </div>
+</section>
+
 <section>
-          <div class="container">
-               <div class="text-center">
-                    <h1>About Us</h1>
-
-                    <br>
-
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, alias.</p>
+     <div class="container">
+          <div class="row">
+               <div class="col-md-4 col-xs-12">
+                    <img src="images/erp.png" class="img-responsive img-circle" alt="">
                </div>
-          </div>
-     </section>
 
-     <section class="section-background">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-offset-1 col-md-4 col-xs-12 pull-right">
-                         <img src="images/about-1-720x720.jpg" class="img-responsive img-circle" alt="">
-                    </div>
+               <div class="col-md-offset-1 col-md-7 col-xs-12">
+                    <div class="about-info">
+                         <h2>Process Automation</h2>
 
-                    <div class="col-md-7 col-xs-12">
-                         <div class="about-info">
-                              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, eos. Corporis, dolor?</h2>
-
-                              <figure>
-                                   <figcaption>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, deserunt beatae praesentium veniam. Aperiam assumenda quas qui officiis, minima laudantium?</p>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis saepe quos repellat eum tempore magnam molestiae. Minus atque, aliquid assumenda, vero non recusandae illum optio, sint dignissimos praesentium ducimus repudiandae eius, nulla. Pariatur magnam alias est voluptatibus distinctio voluptate culpa, iste quisquam! Iure itaque rerum sequi, tenetur voluptatibus nihil quaerat, quisquam non in autem ducimus tempore impedit. Odit, corporis, praesentium.</p>
-                                   </figcaption>
-                              </figure>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </section>
-
-     <section>
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-4 col-xs-12">
-                         <img src="images/about-2-720x720.jpg" class="img-responsive img-circle" alt="">
-                    </div>
-
-                    <div class="col-md-offset-1 col-md-7 col-xs-12">
-                         <div class="about-info">
-                              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, minima!</h2>
-
-                              <figure>
-                                   <figcaption>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, deserunt beatae praesentium veniam. Aperiam assumenda quas qui officiis, minima laudantium?</p>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis saepe quos repellat eum tempore magnam molestiae. Minus atque, aliquid assumenda, vero non recusandae illum optio, sint dignissimos praesentium ducimus repudiandae eius, nulla. Pariatur magnam alias est voluptatibus distinctio voluptate culpa, iste quisquam! Iure itaque rerum sequi, tenetur voluptatibus nihil quaerat, quisquam non in autem ducimus tempore impedit. Odit, corporis, praesentium.</p>
-                                   </figcaption>
-                              </figure>
-                         </div>
+                         <figure>
+                              <figcaption>
+                                   <p>Using ERP's development services enhances your company's efficiency. The ERP system will help you extract manual operations, and collect data. It also streamlines business processes within the company.</p>
+                              </figcaption>
+                         </figure>
+                         <h2>Comprehensive Reporting</h2>
+                         <figure>
+                              <figcaption>
+                                   <p>With ERP development services, every user of the system can easily create customizable reports. Thus, you can access and analyze data faster than ever before.</p>
+                              </figcaption>
+                         </figure>
+                         <h2>Enhanced Security</h2>
+                         <figure>
+                              <figcaption>
+                                   <p>Data security is vital, particularly for a large organization. With an ERP system, various types of users can allow different access rights. It improves data accuracy and consistency and eliminates the threat of data leaks.</p>
+                              </figcaption>
+                         </figure>
+                         <h2>Keeping Whole Data in One Location</h2>
+                         <figure>
+                              <figcaption>
+                                   <p>Financial ERP software lets you consolidate all your data in one place. It keeps it consistent and up to date.</p>
+                              </figcaption>
+                         </figure>
                     </div>
                </div>
           </div>
-     </section>
-
-     <section class="section-background">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                         <div class="text-center">
-                              <h2>Lorem ipsum dolor sit amet</h2>
-
-                              <br>
-
-                              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestias ipsa veritatis nihil iusto maiores natus dolor, a reiciendis corporis obcaecati ex. Totam assumenda impedit aut eum, illum distinctio saepe explicabo. Consequuntur molestiae similique id quos, quasi quas perferendis laboriosam, fugit natus odit totam! Id dolores saepe, sint debitis rerum dolorem tempora aliquid, pariatur enim nisi. Quia ab iusto assumenda.</p>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </section>
+     </div>
+</section>
 
 @endsection

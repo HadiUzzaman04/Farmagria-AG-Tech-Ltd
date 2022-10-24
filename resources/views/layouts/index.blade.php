@@ -7,9 +7,8 @@
                 <div class="caption">
                     <div class="container">
                         <div class="col-md-6 col-sm-12">
-                            <h1>Lorem ipsum dolor sit amet.</h1>
-                            <h3>Voluptas dignissimos esse, explicabo cum fugit eaque, perspiciatis quia ab nisi sapiente delectus eiet.</h3>
-                            <a href="fleet.html" class="section-btn btn btn-default">Fleet</a>
+                            <h1>Feel free to give us a message</h1>
+                            <a href="{{route('contactus')}}" class="section-btn btn btn-default">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -19,9 +18,8 @@
                 <div class="caption">
                     <div class="container">
                         <div class="col-md-6 col-sm-12">
-                            <h1>Distinctio explicabo vero animi culpa facere voluptatem.</h1>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, excepturi.</h3>
-                            <a href="fleet.html" class="section-btn btn btn-default">Fleet</a>
+                            <h1>Take a look at the services we provide</h1>
+                            <a href="{{route('webdevelopment')}}" class="section-btn btn btn-default">Service</a>
                         </div>
                     </div>
                 </div>
@@ -31,9 +29,8 @@
                 <div class="caption">
                     <div class="container">
                         <div class="col-md-6 col-sm-12">
-                            <h1>Efficient Learning Methods</h1>
-                            <h3>Nam eget sapien vel nibh euismod vulputate in vel nibh. Quisque eu ex eu urna venenatis sollicitudin ut at libero.</h3>
-                            <a href="fleet.html" class="section-btn btn btn-default">Fleet</a>
+                            <h1>To know more about us</h1>
+                            <a href="fleet.html" class="section-btn btn btn-default">About Us</a>
                         </div>
                     </div>
                 </div>
@@ -49,170 +46,133 @@
                 <div class="col-md-12 col-sm-12">
                     <div class="text-center">
                         <h2>About us</h2>
-
-                        <br>
-
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestias ipsa veritatis nihil iusto maiores natus dolor, a reiciendis corporis obcaecati ex. Totam assumenda impedit aut eum, illum distinctio saepe explicabo. Consequuntur molestiae similique id quos, quasi quas perferendis laboriosam, fugit natus odit totam! Id dolores saepe, sint debitis rerum dolorem tempora aliquid, pariatur enim nisi. Quia ab iusto assumenda.</p>
+                        <p class="lead">Farmagria Ag Tech Ltd is an organization specialized in the fields of Information Technology. We provide a wide range of services that can branch out from business management, custom software, Android & iOS applications, e-commerce, web development to many more. We are proud of the fact that we have teams that are highly skilled and professional when it comes to providing services. At Farmagria Ag Tech Ltd , we make sure that we understand our clients every requirement and provide them with their desired output, even better.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section>
+    <section class="section-background">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title text-center">
-                        <h2>Offers <small>Lorem ipsum dolor sit amet.</small></h2>
+                        <h2>Services <small>Here are the list of services that we offer</small></h2>
                     </div>
                 </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="team-thumb">
-                        <div class="team-image">
-                            <img src="images/offer-1-720x480.jpg" class="img-responsive" alt="">
+                <div class="col-md-4 col-sm-4">
+                    <div class="courses-thumb courses-thumb-secondary">
+                        <div class="courses-top">
+                            <div class="courses-image">
+                                <img style="width: 360px; height: 250px" src="images/web-development.jpg" class="img-responsive" alt="">
+                            </div>
                         </div>
-                        <div class="team-info">
-                            <h3>FAMILY CARS</h3>
 
-                            <p class="lead"><small>from</small> <strong>$120</strong> <small>per weekend</small></p>
-
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta voluptas quia dolor fuga odit.</span>
+                        <div class="courses-detail">
+                            <h3><a href="{{route('webdevelopment')}}">Web Development</a></h3>
+                            <p>Web development services infer planning, building, integrating, scaling, and maintaining software that works through the internet.</p>
                         </div>
-                        <div class="team-thumb-actions">
-                            <a href="offers.html" class="section-btn btn btn-primary btn-block">View Offer</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="team-thumb">
-                        <div class="team-image">
-                            <img src="images/offer-2-720x480.jpg" class="img-responsive" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>LUXURY & PRESTIGE CARS</h3>
-
-                            <p class="lead"><small>from</small> <strong>$99</strong> <small>per weekend</small></p>
-
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non beatae soluta, placeat vitae cum maxime culpa itaque minima.</span>
-                        </div>
-                        <div class="team-thumb-actions">
-                            <a href="offers.html" class="section-btn btn btn-primary btn-block">View Offer</a>
+                        <div class="courses-info">
+                            <a href="{{route('webdevelopment')}}" class="section-btn btn btn-primary btn-block">View More</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="team-thumb">
-                        <div class="team-image">
-                            <img src="images/offer-3-720x480.jpg" class="img-responsive" alt="">
+                <div class="col-md-4 col-sm-4">
+                    <div class="courses-thumb courses-thumb-secondary">
+                        <div class="courses-top">
+                            <div class="courses-image">
+                                <img style="width: 360px; height: 250px" src="images/mobile-app-development.jpeg" class="img-responsive" alt="">
+                            </div>
                         </div>
-                        <div class="team-info">
-                            <h3>TOP SELLERS</h3>
-
-                            <p class="lead"><small>from</small> <strong>$110</strong> <small>per weekend</small></p>
-
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia aspernatur, harum facere delectus saepe enim?</span>
+                        <div class="courses-detail">
+                            <h3><a href="{{route('appdevelopment')}}">Mobile App Development</a></h3>
+                            <p>Every time we start a project, we segmented it into different smaller sections to become easier to tackle and bring out the best output.</p>
                         </div>
-                        <div class="team-thumb-actions">
-                            <a href="offers.html" class="section-btn btn btn-primary btn-block">View Offer</a>
+                        <div class="courses-info">
+                            <a href="{{route('appdevelopment')}}" class="section-btn btn btn-primary btn-block">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="courses-thumb courses-thumb-secondary">
+                        <div class="courses-top">
+                            <div class="courses-image">
+                                <img style="width: 360px; height: 250px" src="images/erp.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="courses-detail">
+                            <h3><a href="{{route('erp')}}">ERP Development</a></h3>
+                            <p>Our designated teams at Farmagria Ag Tech Ltd have huge experience with ERP improvement and the formation of completely coordinated modules.</p>
+                        </div>
+                        <div class="courses-info">
+                            <a href="{{route('erp')}}" class="section-btn btn btn-primary btn-block">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="courses-thumb courses-thumb-secondary">
+                        <div class="courses-top">
+                            <div class="courses-image">
+                                <img style="width: 360px; height: 250px" src="images/website-design.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="courses-detail">
+                            <h3><a href="{{route('websitedesign')}}">Website Design</a></h3>
+                            <p>Our website developers give master web application improvement and website composition administrations to our customers.</p>
+                        </div>
+                        <div class="courses-info">
+                            <a href="{{route('websitedesign')}}" class="section-btn btn btn-primary btn-block">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="courses-thumb courses-thumb-secondary">
+                        <div class="courses-top">
+                            <div class="courses-image">
+                                <img style="width: 360px; height: 250px" src="images/Software-Development.jpg" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="courses-detail">
+                            <h3><a href="{{route('software')}}">Software Development</a></h3>
+                            <p>Being a software development service provider, we will help you transform your ideas into innovative solutions for your business.</p>
+                        </div>
+
+                        <div class="courses-info">
+                            <a href="{{route('software')}}" class="section-btn btn btn-primary btn-block">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="courses-thumb courses-thumb-secondary">
+                        <div class="courses-top">
+                            <div class="courses-image">
+                                <img style="width: 360px; height: 250px" src="images/domain-hosting.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="courses-detail">
+                            <h3><a href="{{route('hosting')}}">Domain Hosting</a></h3>
+                            <p>Cheap web hosting services that fit your needs. Do you run a professional business or a personal WordPress website? Get the best deals with us!</p>
+                        </div>
+                        <div class="courses-info">
+                            <a href="{{route('hosting')}}" data-toggle="modal" data-target=".bs-example-modal" class="section-btn btn btn-primary btn-block">Book Now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="section-title text-center">
-                        <h2>Latest Blog posts <small>Lorem ipsum dolor sit amet.</small></h2>
-                    </div>
-                </div>
 
-                <div class="col-md-4 col-sm-4">
-                    <div class="courses-thumb courses-thumb-secondary">
-                        <div class="courses-top">
-                            <div class="courses-image">
-                                <img src="images/blog-1-720x480.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="courses-date">
-                                <span title="Author"><i class="fa fa-user"></i> John Doe</span>
-                                <span title="Date"><i class="fa fa-calendar"></i> 12/06/2020 10:30</span>
-                                <span title="Views"><i class="fa fa-eye"></i> 114</span>
-                            </div>
-                        </div>
 
-                        <div class="courses-detail">
-                            <h3><a href="blog-post-details.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h3>
-                        </div>
-
-                        <div class="courses-info">
-                            <a href="blog-post-details.html" class="section-btn btn btn-primary btn-block">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-4">
-                    <div class="courses-thumb courses-thumb-secondary">
-                        <div class="courses-top">
-                            <div class="courses-image">
-                                <img src="images/blog-2-720x480.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="courses-date">
-                                <span title="Author"><i class="fa fa-user"></i> John Doe</span>
-                                <span title="Date"><i class="fa fa-calendar"></i> 12/06/2020 10:30</span>
-                                <span title="Views"><i class="fa fa-eye"></i> 114</span>
-                            </div>
-                        </div>
-
-                        <div class="courses-detail">
-                            <h3><a href="blog-post-details.html">Tempora molestiae, iste, consequatur unde sint praesentium!</a></h3>
-                        </div>
-
-                        <div class="courses-info">
-                            <a href="blog-post-details.html" class="section-btn btn btn-primary btn-block">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-4">
-                    <div class="courses-thumb courses-thumb-secondary">
-                        <div class="courses-top">
-                            <div class="courses-image">
-                                <img src="images/blog-3-720x480.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="courses-date">
-                                <span title="Author"><i class="fa fa-user"></i> John Doe</span>
-                                <span title="Date"><i class="fa fa-calendar"></i> 12/06/2020 10:30</span>
-                                <span title="Views"><i class="fa fa-eye"></i> 114</span>
-                            </div>
-                        </div>
-
-                        <div class="courses-detail">
-                            <h3><a href="blog-post-details.html">A voluptas ratione, error provident distinctio, eaque id officia?</a></h3>
-                        </div>
-
-                        <div class="courses-info">
-                            <a href="blog-post-details.html" class="section-btn btn btn-primary btn-block">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section id="testimonial">
         <div class="container">
             <div class="row">
-
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title text-center">
                         <h2>Testimonials <small>from around the world</small></h2>
                     </div>
-
                     <div class="owl-carousel owl-theme owl-client">
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
@@ -221,19 +181,10 @@
                                 </div>
                                 <div class="tst-author">
                                     <h4>Jackson</h4>
-                                    <span>Shopify Developer</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas, facilis adipisci dolorem exercitationem nemo aut error impedit repudiandae iusto.</p>
-                                <div class="tst-rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
+                                <p>"Farmagria Ag Tech Ltd. has provided a high level Web Development service at a time in our business when it was sorely needed."</p>
                             </div>
                         </div>
-
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
@@ -241,17 +192,10 @@
                                 </div>
                                 <div class="tst-author">
                                     <h4>Camila</h4>
-                                    <span>Marketing Manager</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente error, unde eos laborum consequatur officiis perferendis vel debitis, dolore, ipsum quibusdam culpa quisquam, reiciendis aspernatur.</p>
-                                <div class="tst-rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
+                                <p>"I have been very satisfied with the Domain Hosting services they have provided for my business with lot of facalities."</p>
                             </div>
                         </div>
-
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
@@ -259,37 +203,21 @@
                                 </div>
                                 <div class="tst-author">
                                     <h4>Barbie</h4>
-                                    <span>Art Director</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit laborum minima autem, reprehenderit mollitia amet id, beatae quo sequi culpa assumenda neque a quisquam, magni.</p>
-                                <div class="tst-rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
+                                <p>"We have been very happy and satisfied with their highly professional ERP System in preparing our monthly accounts."</p>
                             </div>
                         </div>
-
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
                                     <img src="images/tst-image-4-200x216.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="tst-author">
-                                    <h4>Andrio</h4>
-                                    <span>Web Developer</span>
+                                    <h4>Jhon</h4>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore natus culpa laudantium sit dolores quidem at nulla, iure atque laborum! Odit tempora, enim aliquid at modi illum ducimus explicabo soluta.</p>
-                                <div class="tst-rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
+                                <p>"I needed to bring my company website up to date fast and Farmagria Ag Tech Ltd really delivered in doing that."</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -301,13 +229,11 @@
 <section id="contact">
     <div class="container">
         <div class="row">
-
             <div class="col-md-6 col-sm-12">
                 <form id="contact-form" role="form" action="" method="post">
                     <div class="section-title">
                         <h2>Contact us <small>we love conversations. let us talk!</small></h2>
                     </div>
-
                     <div class="col-md-12 col-sm-12">
                         <input type="text" class="form-control" placeholder="Enter full name" name="name" required>
 
@@ -315,20 +241,16 @@
 
                         <textarea class="form-control" rows="6" placeholder="Tell us about your message" name="message" required></textarea>
                     </div>
-
                     <div class="col-md-4 col-sm-12">
                         <input type="submit" class="form-control" name="send message" value="Send Message">
                     </div>
-
                 </form>
             </div>
-
             <div class="col-md-6 col-sm-12">
                 <div class="contact-image">
                     <img src="images/contact-1-600x400.jpg" class="img-responsive" alt="Smiling Two Girls">
                 </div>
             </div>
-
         </div>
     </div>
 </section>

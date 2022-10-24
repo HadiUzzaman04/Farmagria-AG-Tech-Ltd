@@ -1,14 +1,11 @@
 @extends('layouts.master')
 @section('content')
 
-<section>
+<section style="background-image: url({{url('website/images/bannar.jpg')}}); background-repeat: no-repeat; 
+background-size:cover; background-position:center;">
           <div class="container">
                <div class="text-center">
                     <h1>Testimonials</h1>
-
-                    <br>
-
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, alias.</p>
                </div>
           </div>
      </section>
@@ -24,16 +21,8 @@
                               </div>
                               <div class="tst-author">
                                    <h4>Jackson</h4>
-                                   <span>Shopify Developer</span>
                               </div>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex assumenda culpa animi aspernatur provident at inventore aperiam itaque esse impedit.</p>
-                              <div class="tst-rating">
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                              </div>
+                              <p>"Farmagria Ag Tech Ltd. has provided a high level Web Development service at a time in our business when it was sorely needed."</p>
                          </div>
                     </div>
 
@@ -44,14 +33,8 @@
                               </div>
                               <div class="tst-author">
                                    <h4>Camila</h4>
-                                   <span>Marketing Manager</span>
                               </div>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolores placeat nisi ab nobis soluta tempora minus laudantium adipisci, ex fugiat nemo culpa minima unde? Itaque delectus, alias possimus fugiat.</p>
-                              <div class="tst-rating">
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                              </div>
+                              <p>"I have been very satisfied with the Domain Hosting services they have provided for my business with lot of facalities."</p>
                          </div>
                     </div>
 
@@ -62,15 +45,8 @@
                               </div>
                               <div class="tst-author">
                                    <h4>Barbie</h4>
-                                   <span>Art Director</span>
                               </div>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ea nihil accusamus mollitia officia tempora, sapiente explicabo, molestiae officiis blanditiis consectetur nostrum! Repellat maiores, perspiciatis repudiandae nostrum eaque dolores distinctio id est natus, quibusdam quaerat.</p>
-                              <div class="tst-rating">
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                              </div>
+                              <p>"We have been very happy and satisfied with their highly professional ERP System in preparing our monthly accounts."</p>
                          </div>
                     </div>
                </div>
@@ -82,17 +58,9 @@
                                    <img src="images/tst-image-1-200x216.jpg" class="img-responsive" alt="">
                               </div>
                               <div class="tst-author">
-                                   <h4>Jackson</h4>
-                                   <span>Shopify Developer</span>
+                                   <h4>Jhon</h4>
                               </div>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex assumenda culpa animi aspernatur provident at inventore aperiam itaque esse impedit.</p>
-                              <div class="tst-rating">
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                              </div>
+                              <p>"I needed to bring my company website up to date fast and Farmagria Ag Tech Ltd really delivered in doing that."</p>
                          </div>
                     </div>
 
@@ -102,15 +70,9 @@
                                    <img src="images/tst-image-2-200x216.jpg" class="img-responsive" alt="">
                               </div>
                               <div class="tst-author">
-                                   <h4>Camila</h4>
-                                   <span>Marketing Manager</span>
+                                   <h4>Smith</h4>
                               </div>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolores placeat nisi ab nobis soluta tempora minus laudantium adipisci, ex fugiat nemo culpa minima unde? Itaque delectus, alias possimus fugiat.</p>
-                              <div class="tst-rating">
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                              </div>
+                              <p>"Depth of knowledge with both Website design and Mobile application has proven invaluable for my business."</p>
                          </div>
                     </div>
 
@@ -120,16 +82,9 @@
                                    <img src="images/tst-image-3-200x216.jpg" class="img-responsive" alt="">
                               </div>
                               <div class="tst-author">
-                                   <h4>Barbie</h4>
-                                   <span>Art Director</span>
+                                   <h4>Tom</h4>
                               </div>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ea nihil accusamus mollitia officia tempora, sapiente explicabo, molestiae officiis blanditiis consectetur nostrum! Repellat maiores, perspiciatis repudiandae nostrum eaque dolores distinctio id est natus, quibusdam quaerat.</p>
-                              <div class="tst-rating">
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                              </div>
+                              <p>"Where their services have really hit the mark is with the level of financial insight that we now have into the business."</p>
                          </div>
                     </div>
                </div>

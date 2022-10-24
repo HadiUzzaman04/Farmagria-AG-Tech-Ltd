@@ -1,7 +1,6 @@
 <footer id="footer">
      <div class="container">
           <div class="row">
-
                <div class="col-md-4 col-sm-6">
                     <div class="footer-info">
                          <div class="section-title">
@@ -10,7 +9,6 @@
                          <p>Step-up development is altering the features of the civil construction industry by amalgamating years of experience with a singular passion for outstanding work</p>
                     </div>
                </div>
-
                <div class="col-md-4 col-sm-6">
                     <div class="footer-info">
                          <div class="section-title">
@@ -23,17 +21,16 @@
                          </address>
                     </div>
                </div>
-
                <div class="col-md-4 col-sm-6">
                     <div class="footer-info newsletter-form">
                          <h2>Quick Links</h2>
                          <div class="row">
                               <ul>
-                                   <li><a href="#"></i>Home</a></li>
-                                   <li><a href="#"></i>Services</a></li>
-                                   <li><a href="#"></i>Project</a></li>
-                                   <li><a href="#"></i>About Us</a></li>
-                                   <li><a href="#"></i>Contact Us</a></li>
+                                   <li><a href="{{route('home')}}"></i>Home</a></li>
+                                   <li><a href="{{route('webdevelopment')}}"></i>Services</a></li>
+                                   <li><a href="{{route('testimonial')}}"></i>Testimonial</a></li>
+                                   <li><a href="{{route('aboutus')}}"></i>About Us</a></li>
+                                   <li><a href="{{route('contactus')}}"></i>Contact Us</a></li>
                               </ul>
                          </div>
                     </div>

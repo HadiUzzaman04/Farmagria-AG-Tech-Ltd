@@ -32,7 +32,7 @@
 
      <!-- MENU -->
      
-@include('layouts.header')
+     @include('layouts.header')
 
 
      <!-- HOME -->

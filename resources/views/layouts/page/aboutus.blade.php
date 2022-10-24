@@ -1,80 +1,85 @@
 @extends('layouts.master')
 @section('content')
 
+<section style="background-image: url({{url('website/images/bannar.jpg')}}); background-repeat: no-repeat; 
+background-size:cover; background-position:center;">
+     <div class="container">
+          <div class="text-center">
+               <h1>About Us</h1>
+          </div>
+     </div>
+</section>
+
+<section class="section-background">
+     <div class="container">
+          <div class="row">
+               <div class="col-md-offset-1 col-md-4 col-xs-12 pull-right">
+                    <img src="images/about-1-720x720.jpg" class="img-responsive img-circle" alt="">
+               </div>
+               <div class="col-md-7 col-xs-12">
+                    <div class="about-info">
+                         <h2>Who we are?</h2>
+                         <figure>
+                              <figcaption>
+                                   <p>Farmagria Ag Tech Ltd is an organization specialized in the fields of Information Technology. We provide a wide range of services that can branch out from business management, custom software, Android & iOS applications, e-commerce, web development to many more. We are proud of the fact that we have teams that are highly skilled and professional when it comes to providing services. At Farmagria Ag Tech Ltd , we make sure that we understand our clients every requirement and provide them with their desired output, even better.</p>
+                              </figcaption>
+                         </figure>
+                    </div>
+               </div>
+          </div>
+     </div>
+</section>
+
 <section>
-          <div class="container">
-               <div class="text-center">
-                    <h1>About Us</h1>
-
-                    <br>
-
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, alias.</p>
+     <div class="container">
+          <div class="row">
+               <div class="col-md-4 col-xs-12">
+                    <img src="images/about-2-720x720.jpg" class="img-responsive img-circle" alt="">
                </div>
-          </div>
-     </section>
 
-     <section class="section-background">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-offset-1 col-md-4 col-xs-12 pull-right">
-                         <img src="images/about-1-720x720.jpg" class="img-responsive img-circle" alt="">
-                    </div>
-
-                    <div class="col-md-7 col-xs-12">
-                         <div class="about-info">
-                              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, eos. Corporis, dolor?</h2>
-
-                              <figure>
-                                   <figcaption>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, deserunt beatae praesentium veniam. Aperiam assumenda quas qui officiis, minima laudantium?</p>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis saepe quos repellat eum tempore magnam molestiae. Minus atque, aliquid assumenda, vero non recusandae illum optio, sint dignissimos praesentium ducimus repudiandae eius, nulla. Pariatur magnam alias est voluptatibus distinctio voluptate culpa, iste quisquam! Iure itaque rerum sequi, tenetur voluptatibus nihil quaerat, quisquam non in autem ducimus tempore impedit. Odit, corporis, praesentium.</p>
-                                   </figcaption>
-                              </figure>
-                         </div>
+               <div class="col-md-offset-1 col-md-7 col-xs-12">
+                    <div class="about-info">
+                         <h2>Our Vision</h2>
+                         <figure>
+                              <figcaption>
+                                   <p>We believe the teams within Farmagria Ag Tech Ltd  carry the perfect combination of skills, knowledge, and experience to make this organization one of the biggest powerhouses in the field of IT. Let it be, applications for different Operating Systems, custom software or applications, any level of the website, or any sort of business management; our vision is to simply generate the best output</p>
+                              </figcaption>
+                         </figure>
                     </div>
                </div>
           </div>
-     </section>
+     </div>
+</section>
 
-     <section>
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-4 col-xs-12">
-                         <img src="images/about-2-720x720.jpg" class="img-responsive img-circle" alt="">
-                    </div>
-
-                    <div class="col-md-offset-1 col-md-7 col-xs-12">
-                         <div class="about-info">
-                              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, minima!</h2>
-
-                              <figure>
-                                   <figcaption>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, deserunt beatae praesentium veniam. Aperiam assumenda quas qui officiis, minima laudantium?</p>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis saepe quos repellat eum tempore magnam molestiae. Minus atque, aliquid assumenda, vero non recusandae illum optio, sint dignissimos praesentium ducimus repudiandae eius, nulla. Pariatur magnam alias est voluptatibus distinctio voluptate culpa, iste quisquam! Iure itaque rerum sequi, tenetur voluptatibus nihil quaerat, quisquam non in autem ducimus tempore impedit. Odit, corporis, praesentium.</p>
-                                   </figcaption>
-                              </figure>
-                         </div>
+<section class="section-background">
+     <div class="container">
+          <div class="row">
+               <div class="col-md-offset-1 col-md-4 col-xs-12 pull-right">
+                    <img src="images/about-1-720x720.jpg" class="img-responsive img-circle" alt="">
+               </div>
+               <div class="col-md-7 col-xs-12">
+                    <div class="about-info">
+                         <h2>Our Mission</h2>
+                         <figure>
+                              <figcaption>
+                                   <p>Farmagria Ag Tech Ltd  desires to be one of the leading service providers in the field of IT within the nation. This can only be achievable once we make sure that our clients are highly satisfied with our utmost professionalism. The more we satisfy our clients, the better we will become as a whole unit</p>
+                              </figcaption>
+                         </figure>
                     </div>
                </div>
           </div>
-     </section>
+     </div>
+</section>
 
-     <section class="section-background">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                         <div class="text-center">
-                              <h2>Lorem ipsum dolor sit amet</h2>
-
-                              <br>
-
-                              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestias ipsa veritatis nihil iusto maiores natus dolor, a reiciendis corporis obcaecati ex. Totam assumenda impedit aut eum, illum distinctio saepe explicabo. Consequuntur molestiae similique id quos, quasi quas perferendis laboriosam, fugit natus odit totam! Id dolores saepe, sint debitis rerum dolorem tempora aliquid, pariatur enim nisi. Quia ab iusto assumenda.</p>
-                         </div>
+     <div class="container">
+          <div class="row">
+               <div class="col-md-12 col-sm-12">
+                    <div class="text-center">
+                         <h2>Our Goal</h2>
+                         <p class="lead">Teams at Farmagria Ag Tech Ltd work tirelessly to fulfill one goal only, client satisfaction. We believe that we must provide our clients with the best services available in the lot. We make sure that there is a perfect plan mapped out for every customer when we start on the customer’s project. Our goal becomes to execute the whole project with the least amount of obstacles. That way, our clients get the highest satisfaction.</p>
                     </div>
                </div>
           </div>
-     </section>
+     </div>
 
 @endsection

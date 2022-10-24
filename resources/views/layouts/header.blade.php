@@ -9,7 +9,9 @@
             </button>
 
             <!-- lOGO TEXT HERE -->
-            <a href="#" class="navbar-brand">Logo</a>
+            <div class="logo">
+               <a href="{{route('home')}}"> <img src="{{asset('website/images/logo_260x80.jpg')}}" alt="Venue Logo"></a> 
+            </div>
         </div>
 
         <!-- MENU LINKS -->

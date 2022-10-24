@@ -1,80 +1,57 @@
 @extends('layouts.master')
 @section('content')
 
+<section style="background-image: url({{url('website/images/bannar.jpg')}}); background-repeat: no-repeat; 
+background-size:cover; background-position:center;">
+     <div class="container">
+          <div class="text-center">
+               <h1>Software Development</h1>
+          </div>
+     </div>
+</section>
+
+<section class="section-background">
+     <div class="container">
+          <div class="row">
+               <div class="col-md-offset-1 col-md-4 col-xs-12 pull-right">
+                    <img src="images/Software-Development.jpg" class="img-responsive img-circle" alt="">
+               </div>
+
+               <div class="col-md-7 col-xs-12">
+                    <div class="about-info">
+                         <h2>Software Development</h2>
+
+                         <figure>
+                              <figcaption>
+                                   <p>An inventory management system helps organizations account for all incoming and outgoing stock to better meet customer demand and avoid the expense of overstock or loss of business with stock outs. The system impacts every essential business function including accounting, production, warehouse management, purchasing, sales and customer service</p>
+                              </figcaption>
+                         </figure>
+                    </div>
+               </div>
+          </div>
+     </div>
+</section>
+
 <section>
-          <div class="container">
-               <div class="text-center">
-                    <h1>About Us</h1>
-
-                    <br>
-
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, alias.</p>
+     <div class="container">
+          <div class="row">
+               <div class="col-md-4 col-xs-12">
+                    <img src="images/Software-Development.jpg" class="img-responsive img-circle" alt="">
                </div>
-          </div>
-     </section>
 
-     <section class="section-background">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-offset-1 col-md-4 col-xs-12 pull-right">
-                         <img src="images/about-1-720x720.jpg" class="img-responsive img-circle" alt="">
-                    </div>
+               <div class="col-md-offset-1 col-md-7 col-xs-12">
+                    <div class="about-info">
+                         <h2>Our Incredible Infrastructure</h2>
 
-                    <div class="col-md-7 col-xs-12">
-                         <div class="about-info">
-                              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, eos. Corporis, dolor?</h2>
-
-                              <figure>
-                                   <figcaption>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, deserunt beatae praesentium veniam. Aperiam assumenda quas qui officiis, minima laudantium?</p>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis saepe quos repellat eum tempore magnam molestiae. Minus atque, aliquid assumenda, vero non recusandae illum optio, sint dignissimos praesentium ducimus repudiandae eius, nulla. Pariatur magnam alias est voluptatibus distinctio voluptate culpa, iste quisquam! Iure itaque rerum sequi, tenetur voluptatibus nihil quaerat, quisquam non in autem ducimus tempore impedit. Odit, corporis, praesentium.</p>
-                                   </figcaption>
-                              </figure>
-                         </div>
+                         <figure>
+                              <figcaption>
+                                   <p>Inventory control handles products that are already in stock at the warehouse and plays a key role in supply chain management. Inventory control tools can categorize products by type, location and SKU, audit data, generate reports in real-time and search, filter and view products. For more on inventory control methods, including expert advice, see our “Essential Guide to Inventory Control.” Inventory Management: Inventory management features govern the data from other parts of the system, like inventory control. That’s not all; inventory management also handles business processes that occur before the stock arrives at a warehouse and how the inventory reaches other destinations.</p>
+                              </figcaption>
+                         </figure>
                     </div>
                </div>
           </div>
-     </section>
-
-     <section>
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-4 col-xs-12">
-                         <img src="images/about-2-720x720.jpg" class="img-responsive img-circle" alt="">
-                    </div>
-
-                    <div class="col-md-offset-1 col-md-7 col-xs-12">
-                         <div class="about-info">
-                              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, minima!</h2>
-
-                              <figure>
-                                   <figcaption>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, deserunt beatae praesentium veniam. Aperiam assumenda quas qui officiis, minima laudantium?</p>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis saepe quos repellat eum tempore magnam molestiae. Minus atque, aliquid assumenda, vero non recusandae illum optio, sint dignissimos praesentium ducimus repudiandae eius, nulla. Pariatur magnam alias est voluptatibus distinctio voluptate culpa, iste quisquam! Iure itaque rerum sequi, tenetur voluptatibus nihil quaerat, quisquam non in autem ducimus tempore impedit. Odit, corporis, praesentium.</p>
-                                   </figcaption>
-                              </figure>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </section>
-
-     <section class="section-background">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                         <div class="text-center">
-                              <h2>Lorem ipsum dolor sit amet</h2>
-
-                              <br>
-
-                              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestias ipsa veritatis nihil iusto maiores natus dolor, a reiciendis corporis obcaecati ex. Totam assumenda impedit aut eum, illum distinctio saepe explicabo. Consequuntur molestiae similique id quos, quasi quas perferendis laboriosam, fugit natus odit totam! Id dolores saepe, sint debitis rerum dolorem tempora aliquid, pariatur enim nisi. Quia ab iusto assumenda.</p>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </section>
+     </div>
+</section>
 
 @endsection

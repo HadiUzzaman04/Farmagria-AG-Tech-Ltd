@@ -46,4 +46,8 @@ class FrontendController extends BaseController
    {
         return view('layouts.page.domainhosting');
    }
+   public function allservice()
+   {
+        return view('layouts.page.allservice');
+   }
 }

@@ -14,7 +14,8 @@ background-size:cover; background-position:center;">
      <div class="container">
           <div class="row">
                <div class="col-md-6 col-sm-12">
-                    <form id="contact-form" role="form" action="" method="post">
+                    <form id="contact-form" role="form" action="{{route('contactus.store')}}" method="post">
+                         @csrf
                          <div class="col-md-12 col-sm-12">
                               <input type="text" class="form-control" placeholder="Enter full name" name="name" required>
 
@@ -22,7 +23,6 @@ background-size:cover; background-position:center;">
 
                               <textarea class="form-control" rows="6" placeholder="Tell us about your message" name="message" required></textarea>
                          </div>
-
                          <div class="col-md-4 col-sm-12">
                               <input type="submit" class="form-control" name="send message" value="Send Message">
                          </div>

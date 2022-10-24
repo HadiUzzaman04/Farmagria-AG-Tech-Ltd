@@ -13,24 +13,22 @@
                     </div>
                 </div>
             </div>
-
             <div class="item item-second">
                 <div class="caption">
                     <div class="container">
                         <div class="col-md-6 col-sm-12">
                             <h1>Take a look at the services we provide</h1>
-                            <a href="{{route('webdevelopment')}}" class="section-btn btn btn-default">Service</a>
+                            <a href="{{route('allservice')}}" class="section-btn btn btn-default">Service</a>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="item item-third">
                 <div class="caption">
                     <div class="container">
                         <div class="col-md-6 col-sm-12">
                             <h1>To know more about us</h1>
-                            <a href="fleet.html" class="section-btn btn btn-default">About Us</a>
+                            <a href="{{route('aboutus')}}" class="section-btn btn btn-default">About Us</a>
                         </div>
                     </div>
                 </div>
@@ -102,14 +100,13 @@
                         </div>
                         <div class="courses-detail">
                             <h3><a href="{{route('erp')}}">ERP Development</a></h3>
-                            <p>Our designated teams at Farmagria Ag Tech Ltd have huge experience with ERP improvement and the formation of completely coordinated modules.</p>
+                            <p>Our designated teams at Farmagria have huge experience with ERP improvement and the formation of completely coordinated modules.</p>
                         </div>
                         <div class="courses-info">
                             <a href="{{route('erp')}}" class="section-btn btn btn-primary btn-block">View More</a>
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-4 col-sm-4">
                     <div class="courses-thumb courses-thumb-secondary">
                         <div class="courses-top">
@@ -126,7 +123,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-4 col-sm-4">
                     <div class="courses-thumb courses-thumb-secondary">
                         <div class="courses-top">
@@ -144,7 +140,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-4 col-sm-4">
                     <div class="courses-thumb courses-thumb-secondary">
                         <div class="courses-top">
@@ -165,7 +160,6 @@
         </div>
     </section>
 
-
     <section id="testimonial">
         <div class="container">
             <div class="row">
@@ -177,7 +171,7 @@
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="images/tst-image-1-200x216.jpg" class="img-responsive" alt="">
+                                    <img src="images/user.png" class="img-responsive" alt="">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Jackson</h4>
@@ -188,7 +182,7 @@
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="images/tst-image-2-200x216.jpg" class="img-responsive" alt="">
+                                    <img src="images/user.png" class="img-responsive" alt="">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Camila</h4>
@@ -199,7 +193,7 @@
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="images/tst-image-3-200x216.jpg" class="img-responsive" alt="">
+                                    <img src="images/user.png" class="img-responsive" alt="">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Barbie</h4>
@@ -210,7 +204,7 @@
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="images/tst-image-4-200x216.jpg" class="img-responsive" alt="">
+                                    <img src="images/user.png" class="img-responsive" alt="">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Jhon</h4>
@@ -224,16 +218,13 @@
         </div>
     </section>
 </main>
-
 <!-- CONTACT -->
 <section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
-                <form id="contact-form" role="form" action="" method="post">
-                    <div class="section-title">
-                        <h2>Contact us <small>we love conversations. let us talk!</small></h2>
-                    </div>
+                <form id="contact-form" role="form" action="{{route('contactus.store')}}" method="post">
+                    @csrf
                     <div class="col-md-12 col-sm-12">
                         <input type="text" class="form-control" placeholder="Enter full name" name="name" required>
 
@@ -248,7 +239,7 @@
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="contact-image">
-                    <img src="images/contact-1-600x400.jpg" class="img-responsive" alt="Smiling Two Girls">
+                    <img src="images/contact-1-600x400.jpg" class="img-responsive" alt="">
                 </div>
             </div>
         </div>

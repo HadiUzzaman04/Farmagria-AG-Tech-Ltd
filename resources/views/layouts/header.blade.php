@@ -22,6 +22,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
 
                     <ul class="dropdown-menu">
+                        <li><a href="{{route('allservice')}}">All Service</a></li>
                         <li><a href="{{route('webdevelopment')}}">Web Development</a></li>
                         <li><a href="{{route('appdevelopment')}}">Mobile App Development</a></li>
                         <li><a href="{{route('erp')}}">ERP Development</a></li>

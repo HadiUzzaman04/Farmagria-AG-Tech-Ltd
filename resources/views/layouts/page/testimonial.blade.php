@@ -17,7 +17,7 @@ background-size:cover; background-position:center;">
                     <div class="col-sm-4 col-xs-12">
                          <div class="item">
                               <div class="tst-image">
-                                   <img src="images/tst-image-1-200x216.jpg" class="img-responsive" alt="">
+                                   <img src="images/user.png" class="img-responsive" alt="">
                               </div>
                               <div class="tst-author">
                                    <h4>Jackson</h4>
@@ -29,7 +29,7 @@ background-size:cover; background-position:center;">
                     <div class="col-sm-4 col-xs-12">
                          <div class="item">
                               <div class="tst-image">
-                                   <img src="images/tst-image-2-200x216.jpg" class="img-responsive" alt="">
+                                   <img src="images/user.png" class="img-responsive" alt="">
                               </div>
                               <div class="tst-author">
                                    <h4>Camila</h4>
@@ -41,7 +41,7 @@ background-size:cover; background-position:center;">
                     <div class="col-sm-4 col-xs-12">
                          <div class="item">
                               <div class="tst-image">
-                                   <img src="images/tst-image-3-200x216.jpg" class="img-responsive" alt="">
+                                   <img src="images/user.png" class="img-responsive" alt="">
                               </div>
                               <div class="tst-author">
                                    <h4>Barbie</h4>
@@ -55,7 +55,7 @@ background-size:cover; background-position:center;">
                     <div class="col-sm-4 col-xs-12">
                          <div class="item">
                               <div class="tst-image">
-                                   <img src="images/tst-image-1-200x216.jpg" class="img-responsive" alt="">
+                                   <img src="images/user.png" class="img-responsive" alt="">
                               </div>
                               <div class="tst-author">
                                    <h4>Jhon</h4>
@@ -67,7 +67,7 @@ background-size:cover; background-position:center;">
                     <div class="col-sm-4 col-xs-12">
                          <div class="item">
                               <div class="tst-image">
-                                   <img src="images/tst-image-2-200x216.jpg" class="img-responsive" alt="">
+                                   <img src="images/user.png" class="img-responsive" alt="">
                               </div>
                               <div class="tst-author">
                                    <h4>Smith</h4>
@@ -79,7 +79,7 @@ background-size:cover; background-position:center;">
                     <div class="col-sm-4 col-xs-12">
                          <div class="item">
                               <div class="tst-image">
-                                   <img src="images/tst-image-3-200x216.jpg" class="img-responsive" alt="">
+                                   <img src="images/user.png" class="img-responsive" alt="">
                               </div>
                               <div class="tst-author">
                                    <h4>Tom</h4>

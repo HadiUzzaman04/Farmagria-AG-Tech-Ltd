@@ -1,4 +1,6 @@
 <?php
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -11,6 +13,7 @@
 |
 */
 
-Route::prefix('backend')->group(function() {
-    Route::get('/', 'BackendController@index');
+Route::prefix('admin')->group(function() {
+    Route::get('/contactus', 'BackendController@contactus');
+    Route::get('/contactus/delete/{id}','BackendController@delete')->name('contactus.delete');
 });

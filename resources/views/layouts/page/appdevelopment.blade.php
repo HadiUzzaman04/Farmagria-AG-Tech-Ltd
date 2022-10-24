@@ -70,9 +70,7 @@ background-size:cover; background-position:center;">
                <div class="col-md-12 col-sm-12">
                     <div class="text-center">
                          <h2>Our Mobile App Development Process</h2>
-
                          <br>
-
                          <p class="lead">Our mobile application development strategies are simple. It makes users' lives easier. Developer repeats the minimum effective product and strategists. Because of refined mobile applications' perfection.</p>
                     </div>
                </div>

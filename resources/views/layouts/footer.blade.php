@@ -6,7 +6,7 @@
                          <div class="section-title">
                               <h2>You can follow us on</h2>
                          </div>
-                         <p>Step-up development is altering the features of the civil construction industry by amalgamating years of experience with a singular passion for outstanding work</p>
+                         <p>Together we are going to help you determining a goal, choosing your tools and developing your businesses to make it distinct and neoteric.</p>
                     </div>
                </div>
                <div class="col-md-4 col-sm-6">

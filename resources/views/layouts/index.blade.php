@@ -152,7 +152,7 @@
                             <p>Cheap web hosting services that fit your needs. Do you run a professional business or a personal WordPress website? Get the best deals with us!</p>
                         </div>
                         <div class="courses-info">
-                            <a href="{{route('hosting')}}" data-toggle="modal" data-target=".bs-example-modal" class="section-btn btn btn-primary btn-block">Book Now</a>
+                            <a href="{{route('hosting')}}" data-toggle="modal" data-target=".bs-example-modal" class="section-btn btn btn-primary btn-block">View More</a>
                         </div>
                     </div>
                 </div>

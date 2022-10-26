@@ -25,7 +25,6 @@ background-size:cover; background-position:center;">
                                 <img style="width: 360px; height: 250px" src="images/web-development.jpg" class="img-responsive" alt="">
                             </div>
                         </div>
-
                         <div class="courses-detail">
                             <h3><a href="{{route('webdevelopment')}}">Web Development</a></h3>
                             <p>Web development services infer planning, building, integrating, scaling, and maintaining software that works through the internet.</p>
@@ -112,7 +111,7 @@ background-size:cover; background-position:center;">
                             <p>Cheap web hosting services that fit your needs. Do you run a professional business or a personal WordPress website? Get the best deals with us!</p>
                         </div>
                         <div class="courses-info">
-                            <a href="{{route('hosting')}}" data-toggle="modal" data-target=".bs-example-modal" class="section-btn btn btn-primary btn-block">Book Now</a>
+                            <a href="{{route('hosting')}}" data-toggle="modal" data-target=".bs-example-modal" class="section-btn btn btn-primary btn-block">View More</a>
                         </div>
                     </div>
                 </div>

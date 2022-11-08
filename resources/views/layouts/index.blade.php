@@ -36,7 +36,6 @@
         </div>
     </div>
 </section>
-
 <main>
     <section>
         <div class="container">
@@ -65,7 +64,6 @@
                                 <img style="width: 360px; height: 250px" src="images/web-development.jpg" class="img-responsive" alt="">
                             </div>
                         </div>
-
                         <div class="courses-detail">
                             <h3><a href="{{route('webdevelopment')}}">Web Development</a></h3>
                             <p>Web development services infer planning, building, integrating, scaling, and maintaining software that works through the internet.</p>
@@ -159,7 +157,6 @@
             </div>
         </div>
     </section>
-
     <section id="testimonial">
         <div class="container">
             <div class="row">
@@ -176,7 +173,7 @@
                                 <div class="tst-author">
                                     <h4>Jackson</h4>
                                 </div>
-                                <p>"Farmagria Ag Tech Ltd. has provided a high level Web Development service at a time in our business when it was sorely needed."</p>
+                                <p>"Farmagria has provided a high level Web Development service at a time in our business when it was sorely needed."</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
@@ -218,7 +215,6 @@
         </div>
     </section>
 </main>
-<!-- CONTACT -->
 <section id="contact">
     <div class="container">
         <div class="row">

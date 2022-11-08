@@ -1,5 +1,4 @@
 @extends('layouts.app')
-
 @section('content')
 <div class="d-flex flex-column-fluid">
     <div class="container-fluid">
@@ -12,7 +11,6 @@
             </div>
         </div>
         <div class="card card-custom">
-
             <div class="card-body">
                 <!--begin: Datatable-->
                 <div id="kt_datatable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
@@ -30,7 +28,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach($data as $key=>$contact)
+                                        @foreach($data as $key=>$contact)
                                         <tr>
                                             <td>{{ $key + 1 }}</td>
                                             <td>{{ $contact->name}}</td>
@@ -39,8 +37,8 @@
                                             <td>
                                                 <a href="{{route('contactus.delete',$contact->id)}}" class="btn btn-danger">Delete</a>
                                             </td>
-                                        </tr>  
-                                    @endforeach                                   
+                                        </tr>
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>
@@ -53,7 +51,4 @@
         <!--end::Card-->
     </div>
 </div>
-
-
-
 @endsection

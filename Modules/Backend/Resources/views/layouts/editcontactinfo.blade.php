@@ -1,8 +1,5 @@
 @extends('layouts.app')
 @section('content')
-
-<!--edit modal begain-->
-
 <div class="modal-header">
     <h5 class="modal-title" id="editModalLabel">Edit Contact Info</h5>
 </div>
@@ -27,7 +24,4 @@
         </div>
     </form>
 </div>
-
-<!--edit modal end-->
-
 @endsection

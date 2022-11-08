@@ -17,7 +17,7 @@
                          <address>
                               <p>Address- 234 11 Ave E<br>Regina Sk S4N 6H1</p>
                               <p>Phone- 306-491-4003</p>
-                              <p><a href="mailto:contact@company.com">Email- info@stepupdevelopment.com</a></p>
+                              <p><a href="mailto:contact@company.com">Email- info@farmagriaagtech.com</a></p>
                          </address>
                     </div>
                </div>
@@ -28,9 +28,9 @@
                               <ul>
                                    <li><a href="{{route('home')}}"></i>Home</a></li>
                                    <li><a href="{{route('webdevelopment')}}"></i>Services</a></li>
-                                   <li><a href="{{route('testimonial')}}"></i>Testimonial</a></li>
                                    <li><a href="{{route('aboutus')}}"></i>About Us</a></li>
                                    <li><a href="{{route('contactus')}}"></i>Contact Us</a></li>
+                                   <li><a href="{{route('testimonial')}}"></i>Testimonial</a></li>
                               </ul>
                          </div>
                     </div>

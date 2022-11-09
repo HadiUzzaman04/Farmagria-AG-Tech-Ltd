@@ -27,27 +27,26 @@
                                     <thead class="bg-primary">
                                         <tr>
                                             <th>SL</th>
-                                            <th>Address</th>
-                                            <th>Phone</th>
-                                            <th>Email</th>
+                                            <th>Name</th>
+                                            <th>Details</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach($data as $key=>$Address)
+                                        @foreach($data as $key=>$service)
                                         <tr>
-                                            <td>{{ $key + 1 }}</td>
-                                            <td>{{ $Address->address}}</td>
-                                            <td>{{ $Address->phone}}</td>
-                                            <td>{{ $Address->email}}</td>
+                                            <td>{{$key + 1}}</td>
+                                            <td>{{$service->name}}</td>
+                                            <td>{{$service->details}}</td>
                                             <td>
                                                 <div class="dropdown">
                                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                         Select
                                                     </button>
                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                        <a class="btn btn-success dropdown-item" href="{{route('contactinfo.edit',$Address->id)}}">Edit</a>
-                                                        <a class="btn btn-danger dropdown-item" onclick="return confirm('Are you sure?')" href="{{route('contactinfo.delete',$Address->id)}}">Delete</a>
+                                                        <a class="btn btn-info dropdown-item" href="{{route('service.view',$service->id)}}">View</a>
+                                                        <a class="btn btn-success dropdown-item" href="{{route('service.edit',$service->id)}}">Edit</a>
+                                                        <a class="btn btn-danger dropdown-item" onclick="return confirm('Are you sure?')" href="{{route('service.delete',$service->id)}}">Delete</a>
                                                     </div>
                                                 </div>
                                             </td>
@@ -70,22 +69,18 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Add Contact Info</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Add Service</h5>
             </div>
             <div class="modal-body">
-                <form action="{{route('contactinfo.store')}}" method="POST" enctype="multipart/form-data">
+                <form action="{{route('service.store')}}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
-                        <label for="recipient-address" class="col-form-label">Address</label>
-                        <input type="text" class="form-control" id="recipient-address" name="address" required>
+                        <label for="recipient-name" class="col-form-label">Name</label>
+                        <input type="text" class="form-control" id="recipient-name" name="name" required>
                     </div>
                     <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Phone</label>
-                        <input type="text" class="form-control" id="recipient-phone" name="phone" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Email</label>
-                        <input type="Email" class="form-control" id="recipient-email" name="email" required>
+                        <label for="message-text" class="col-form-label">Details</label>
+                        <textarea class="form-control" id="message-text" name="details" rows="4" required></textarea>
                     </div>
                     <div class="modal-footer">
                         <button type="close" id="close" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -97,4 +92,5 @@
     </div>
 </div>
 <!--end: Modal-->
+
 @endsection

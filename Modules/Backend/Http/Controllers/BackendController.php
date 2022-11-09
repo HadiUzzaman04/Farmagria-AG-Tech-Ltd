@@ -17,8 +17,12 @@ class BackendController extends BaseController
     }
     public function delete($id)
     {
-        $data = Contact::find($id);
-        $data->delete();
+        $data = Contact::find($id)->delete();;
         return redirect()->back();
     } 
+    public function view($id)
+    {
+        $data = Contact::find($id);
+        return view('backend::layouts.viewmessage', compact('data'));
+    }
 }

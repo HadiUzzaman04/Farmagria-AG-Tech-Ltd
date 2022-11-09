@@ -35,7 +35,15 @@
                                             <td>{{ $contact->email}}</td>
                                             <td>{{ $contact->message}}</td>
                                             <td>
-                                                <a href="{{route('contactus.delete',$contact->id)}}" class="btn btn-danger">Delete</a>
+                                                <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Select
+                                                    </button>
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <a class="btn btn-info dropdown-item" href="{{route('contactus.view',$contact->id)}}">View</a>
+                                                        <a class="btn btn-danger dropdown-item" onclick="return confirm('Are you sure?')" href="{{route('contactus.delete',$contact->id)}}">Delete</a>
+                                                    </div>
+                                                </div>
                                             </td>
                                         </tr>
                                         @endforeach

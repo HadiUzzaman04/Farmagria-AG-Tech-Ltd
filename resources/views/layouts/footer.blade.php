@@ -15,8 +15,8 @@
                               <h2>Contact Info</h2>
                          </div>
                          <address>
-                              <p>Address- 234 11 Ave E<br>Regina Sk S4N 6H1</p>
-                              <p>Phone- 306-491-4003</p>
+                              <p>Address- Office-2 806 BRDADWAY AV, MOOSOMIN SASKATCHEWAN<br> Canada SOG 3NO</p>
+                              <p>Phone- 306-434-0082</p>
                               <p><a href="mailto:contact@company.com">Email- info@farmagriaagtech.com</a></p>
                          </address>
                     </div>
